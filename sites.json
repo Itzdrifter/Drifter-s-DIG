@@ -5,13 +5,17 @@
         "color": "blue"
     },
     {
-        "name": "SkullGPT",
-        "url": "https://skullgpt.vercel.app",
+        "name": "Free Good Apps HUB",
+        "url": "https://goodthingsforfree.vercel.app",
+        "color": "green"
+    },
+    {
+        "name": "Advance PDF reader[Free]",
+        "url": "https://driftpdf.vercel.app",
         "color": "red"
     },
     {
-        "name": "My Blog",
-        "url": "https://example.com",
-        "color": "green"
-    }
+        "name": "FakeChats Maker",
+        "url": "https://fakechatsimagemaker.vercel.app"
+        "color": "pink"
 ]
