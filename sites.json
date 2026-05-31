@@ -1,0 +1,17 @@
+[
+    {
+        "name": "The Vault",
+        "url": "https://thevault4devs.vercel.app",
+        "color": "blue"
+    },
+    {
+        "name": "SkullGPT",
+        "url": "https://skullgpt.vercel.app",
+        "color": "red"
+    },
+    {
+        "name": "My Blog",
+        "url": "https://example.com",
+        "color": "green"
+    }
+]
