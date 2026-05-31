@@ -1,22 +1,22 @@
 [
-    {
-        "name": "The Vault",
-        "url": "https://thevault4devs.vercel.app",
-        "color": "blue"
-    },
-    {
-        "name": "Free Good Apps HUB",
-        "url": "https://goodthingsforfree.vercel.app",
-        "color": "green"
-    },
-    {
-        "name": "Advance PDF reader[Free]",
-        "url": "https://driftpdf.vercel.app",
-        "color": "red"
-    },
-    {
-        "name": "FakeChats Maker",
-        "url": "https://fakechatsimagemaker.vercel.app"
-        "color": "pink"
-    }    
+  {
+    "name": "The Vault",
+    "url": "https://thevault4devs.vercel.app",
+    "color": "blue"
+  },
+  {
+    "name": "Free Good Apps HUB",
+    "url": "https://goodthingsforfree.vercel.app",
+    "color": "green"
+  },
+  {
+    "name": "Advance PDF reader[Free]",
+    "url": "https://driftpdf.vercel.app",
+    "color": "red"
+  },
+  {
+    "name": "FakeChats Maker",
+    "url": "https://fakechatsimagemaker.vercel.app",
+    "color": "pink"
+  }    
 ]
