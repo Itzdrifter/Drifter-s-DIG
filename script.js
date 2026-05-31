@@ -1,25 +1,21 @@
 fetch("./sites.json")
-    .then(response => response.json())
-    .then(data => {
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("container");
 
-        const container = document.getElementById("sites-container");
+    data.forEach(site => {
+      const btn = document.createElement("button");
 
-        data.forEach(site => {
+      btn.textContent = site.name;
+      btn.style.backgroundColor = site.color;
 
-            const button = document.createElement("button");
+      btn.onclick = () => {
+        window.location.href = site.url;
+      };
 
-            button.className = "site-btn";
-            button.textContent = site.name;
-            button.style.backgroundColor = site.color;
-
-            button.onclick = () => {
-                window.location.href = site.url;
-            };
-
-            container.appendChild(button);
-        });
-
-    })
-    .catch(err => {
-        console.error("Failed to load sites.json", err);
+      container.appendChild(btn);
     });
+  })
+  .catch(err => {
+    console.error("Failed to load sites.json", err);
+  });
